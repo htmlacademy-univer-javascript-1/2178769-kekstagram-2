@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
-* Студент: [Александр Морозов](https://up.htmlacademy.ru/univer-js1/2/user/2178769).
-* Наставник: `Неизвестно`.
+- Студент: [Александр Морозов](https://up.htmlacademy.ru/univer-js1/2/user/2178769).
+- Наставник: [Олег Глущенко](https://htmlacademy.ru/profile/id305355).
 
 ---
 
