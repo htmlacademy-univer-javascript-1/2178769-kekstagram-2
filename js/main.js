@@ -1,16 +1,13 @@
-function checkLength(str, maxLength) {
-  if (str.length <= maxLength) {
-    return true;
-  }
-  return false;
-}
+const checkLength = (str, maxLength) => str.length <= maxLength;
 
 function getRandomNumber(min, max) {
-  if (min < 0) {
-    return "Ошибка!";
+  if (min || max < 0) {
+    throw new RangeError("Числа должны быть неотрицательными!");
   }
   if (max <= min) {
-    return "Проверьте введённые данные!";
+    throw new RangeError(
+      "Максимальное значение должно быть больше минимального!"
+    );
   }
   min = Math.ceil(min);
   max = Math.floor(max);
